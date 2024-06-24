@@ -1,0 +1,141 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav{
+        background-color: rgba(43, 39, 39, 0.719);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .LogoAulab{
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .link{
+
+        text-decoration: none;
+        color: white;
+        margin-right: 10px;
+
+    }
+
+    .link:hover{
+        border-bottom: 2px solid rgb(216,216,87);
+        
+}
+
+    .listLink{
+
+        list-style-type: none;
+        display: flex;
+    }
+
+    header{
+
+        background-image: url(./media/notebook.jpg);
+        height: 80vh;
+        background-size: cover;
+        background-position: center;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+
+
+
+    }
+
+    h1,h2{
+
+        color: rgb(17, 17, 17);
+        font-size: 50px;
+    }
+
+    .linkHome{
+
+        color:  rgb(10, 10, 10);
+        text-decoration: none;
+
+    }
+
+    .btnArticle{
+
+        background-color: blue;
+        color: white;
+    }
+
+    .btnArticle:hover{
+
+        background-color: rgb(168, 168, 57);
+        color: black;
+    }
+
+    .titleArticle{
+        text-align: center;
+
+    }
+
+    .imgArticle{
+        width: 300px;
+    }
+
+    .containerArticle{
+        display: flex;
+        width: 60%;
+
+    }
+
+    aside{
+        background-color: rgb(216,216,87);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    main{
+
+        display: flex;
+    }
+
+    .icona{
+        position: fixed;
+        width: 60px;
+        right: 0px;
+        bottom: 0px;
+        animation-name: Icon;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+
+    
+    }
+
+
+
+
+    
+@keyframes Icon{
+    0%{
+        transform: rotate (0deg);
+            }100%{transform: rotate(360deg);
+
+            }
+
+
+
+
+}
+
+
+
+    @media screen and (max-width: 600px){
+        
+    }
+
+    
